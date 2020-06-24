@@ -3,6 +3,12 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.0",
-  "useWorkspaces": true
+  "version": "1.0.1-alpha.1",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish [skip ci]"
+    }
+  }
 }
