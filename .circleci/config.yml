@@ -8,6 +8,7 @@ jobs:
   build:
     docker:
       - image: cimg/node:<< pipeline.parameters.node_version >>
+    working_directory: ~/app
     steps:
       - attach_workspace:
           at: ~/app
@@ -25,6 +26,7 @@ jobs:
   prerelease:
     docker:
       - image: cimg/node:<< pipeline.parameters.node_version >>
+    working_directory: ~/app
     steps:
       - attach_workspace:
           at: ~/app
@@ -38,6 +40,7 @@ jobs:
   release:
     docker:
       - image: cimg/node:<< pipeline.parameters.node_version >>
+    working_directory: ~/app
     steps:
       - attach_workspace:
           at: ~/app
@@ -51,6 +54,7 @@ jobs:
   deploy:
     docker:
       - image: cimg/node:<< pipeline.parameters.node_version >>
+    working_directory: ~/app
     steps:
       - attach_workspace:
           at: ~/app
