@@ -1,12 +1,16 @@
 {
+  "lerna": "3.20.0",
   "npmClient": "yarn",
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.2",
+  "version": "independent",
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "ignoreChanges": [
+        "*.md"
+      ],
       "conventionalCommits": true,
       "message": "chore(release): publish [skip ci]"
     }

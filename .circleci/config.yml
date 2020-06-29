@@ -1,0 +1,85 @@
+version: 2.1
+parameters:
+  node_version:
+    type: string
+    default: "12.16.2"
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:<< pipeline.parameters.node_version >>
+    steps:
+      - attach_workspace:
+          at: ~/app
+      - checkout
+      - run:
+          name: "Install dependencies"
+          command: yarn
+      - run:
+          name: "Test"
+          command: yarn test
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  prerelease:
+    docker:
+      - image: cimg/node:<< pipeline.parameters.node_version >>
+    steps:
+      - attach_workspace:
+          at: ~/app
+      - run:
+          name: "Prerelease"
+          command: yarn lerna:publish --conventional-prerelease --skip-npm --yes
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  release:
+    docker:
+      - image: cimg/node:<< pipeline.parameters.node_version >>
+    steps:
+      - attach_workspace:
+          at: ~/app
+      - run:
+          name: "Prerelease"
+          command: yarn lerna:publish --conventional-graduate --skip-npm --yes
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  deploy:
+    docker:
+      - image: cimg/node:<< pipeline.parameters.node_version >>
+    steps:
+      - attach_workspace:
+          at: ~/app
+      - run:
+          name: Deploy to cluster
+          command: echo "Done"
+
+
+
+workflows:
+  version: 2
+  pr:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - master
+  deploy-dev:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
+      - prerelease
+      - deploy:
+          name: deploy dev
+          filters:
+            branches:
+              only:
+                - master
