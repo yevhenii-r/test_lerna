@@ -69,6 +69,7 @@ workflows:
             branches:
               ignore:
                 - master
+
   deploy-dev:
     jobs:
       - build:
@@ -77,9 +78,4 @@ workflows:
               only:
                 - master
       - prerelease
-      - deploy:
-          name: deploy dev
-          filters:
-            branches:
-              only:
-                - master
+      - deploy
