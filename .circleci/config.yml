@@ -80,4 +80,6 @@ workflows:
       - prerelease:
           requires:
             - build
-      - deploy
+      - deploy:
+          requires:
+            - prerelease
