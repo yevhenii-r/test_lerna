@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/yevhenii-r/test_lerna/compare/v1.0.2...v1.2.0) (2020-06-30)
+
+
+### Features
+
+* Update application ([#2](https://github.com/yevhenii-r/test_lerna/issues/2)) ([b59e158](https://github.com/yevhenii-r/test_lerna/commit/b59e158c20e67761352fa44b35f72d5c465b3252))
+* Update application ([#3](https://github.com/yevhenii-r/test_lerna/issues/3)) ([c5fa08f](https://github.com/yevhenii-r/test_lerna/commit/c5fa08fc69c131b40f43e21e876d4c0c25fe75ae))
+
+
+
+
+
 # 1.1.0 (2020-06-30)
 
 

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/yevhenii-r/test_lerna/compare/v1.0.2...v1.2.0) (2020-06-30)
+
+
+### Features
+
+* add circleci ([80bae8d](https://github.com/yevhenii-r/test_lerna/commit/80bae8d73769155ebfde8992facae60c382a941e))
+* add circleci ([2c97b3c](https://github.com/yevhenii-r/test_lerna/commit/2c97b3c621d417493d8001288557b10c3f1c8881))
+* add circleci ([59dcb19](https://github.com/yevhenii-r/test_lerna/commit/59dcb1901ff96b52815decb1a130f73ea6234217))
+* add circleci ([afe194f](https://github.com/yevhenii-r/test_lerna/commit/afe194f089cefa34d5eb2537b07bd0d310429b88))
+* Add draw ([#1](https://github.com/yevhenii-r/test_lerna/issues/1)) ([7165752](https://github.com/yevhenii-r/test_lerna/commit/7165752f98263f2c85306ea4a12fabe0df7b2e13))
+* Update application ([cfc74fa](https://github.com/yevhenii-r/test_lerna/commit/cfc74fa8b2490eff54177660445f65be0632ac23))
+* Update application ([#2](https://github.com/yevhenii-r/test_lerna/issues/2)) ([b59e158](https://github.com/yevhenii-r/test_lerna/commit/b59e158c20e67761352fa44b35f72d5c465b3252))
+* Update application ([#3](https://github.com/yevhenii-r/test_lerna/issues/3)) ([c5fa08f](https://github.com/yevhenii-r/test_lerna/commit/c5fa08fc69c131b40f43e21e876d4c0c25fe75ae))
+
+
+
+
+
 ## [1.0.2](https://github.com/yevhenii-r/test_lerna/compare/v1.0.1...v1.0.2) (2020-06-24)
 
 **Note:** Version bump only for package monorepo
