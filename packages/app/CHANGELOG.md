@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2020-06-30)
+
+
+### Features
+
+* Update application ([#2](https://github.com/yevhenii-r/test_lerna/issues/2)) ([b59e158](https://github.com/yevhenii-r/test_lerna/commit/b59e158c20e67761352fa44b35f72d5c465b3252))
+
+
+
+## 1.0.2 (2020-06-24)
+
+
+
+## 1.0.1 (2020-06-24)
+
+
+
+## 1.0.1-alpha.2 (2020-06-24)
+
+
+
+
+
 ## [1.0.2](https://github.com/yevhenii-r/test_lerna/compare/v1.0.1...v1.0.2) (2020-06-24)
 
 **Note:** Version bump only for package @monorepo/app
