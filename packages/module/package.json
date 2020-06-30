@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo/third",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --colors"
+  }
+}
