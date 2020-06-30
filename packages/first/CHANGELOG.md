@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/yevhenii-r/test_lerna/compare/v1.4.1...v1.6.0) (2020-06-30)
+
+
+### Features
+
+* Update first ([#6](https://github.com/yevhenii-r/test_lerna/issues/6)) ([b7c2a17](https://github.com/yevhenii-r/test_lerna/commit/b7c2a1756d1490d2097e89aa58bae39099efd511))
+* Update first application ([#9](https://github.com/yevhenii-r/test_lerna/issues/9)) ([dc35c9c](https://github.com/yevhenii-r/test_lerna/commit/dc35c9c835dc9889d58da210ac37defecaeb3858))
+
+
+
+
+
 # [1.5.0](https://github.com/yevhenii-r/test_lerna/compare/v1.5.0-dev.1...v1.5.0) (2020-06-30)
 
 **Note:** Version bump only for package @monorepo/first
