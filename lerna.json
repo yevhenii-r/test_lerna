@@ -4,14 +4,12 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.7.0-dev.0",
+  "version": "1.7.0",
   "useWorkspaces": true,
   "command": {
     "version": {
-      "allowBranch": "master",
       "conventionalCommits": true,
       "exact": true,
-      "gitRemote": "upstream",
       "message": "chore(release): publish [skip ci]"
     }
   }
