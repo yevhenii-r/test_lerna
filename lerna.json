@@ -6,12 +6,13 @@
   ],
   "version": "1.6.0",
   "useWorkspaces": true,
+  
   "command": {
-    "publish": {
-      "ignoreChanges": [
-        "*.md"
-      ],
+    "version": {
+      "allowBranch": "master",
       "conventionalCommits": true,
+      "exact": true,
+      "gitRemote": "upstream",
       "message": "chore(release): publish [skip ci]"
     }
   }
