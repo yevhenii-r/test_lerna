@@ -1,11 +1,11 @@
 {
   "name": "@monorepo/app",
-  "version": "1.6.0-dev.1",
+  "version": "1.6.0-dev.2",
   "main": "index.js",
   "license": "MIT",
   "private": "true",
   "dependencies": {
-    "@monorepo/first": "^1.6.0-dev.1",
-    "@monorepo/second": "^1.6.0-dev.1"
+    "@monorepo/first": "^1.6.0-dev.2",
+    "@monorepo/second": "^1.6.0-dev.2"
   }
 }
