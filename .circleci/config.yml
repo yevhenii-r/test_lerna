@@ -31,8 +31,19 @@ jobs:
       - attach_workspace:
           at: ~/app
       - run:
+          name: "Set git config"
+          command: |
+            git config user.email $GH_EMAIL
+            git config user.name $GH_NAME
+            git remote set-url origin https://$CIRCLE_PROJECT_USERNAME:$GH_TOKEN@github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git
+            git pull
+      - run:
           name: "Prerelease"
-          command: yarn lerna:publish --conventional-prerelease --skip-npm --yes
+          command: |
+            yarn lerna version --yes --conventional-prerelease --preid dev --no-changelog --no-git-tag-version
+            git add .
+            git commit -m "chore(release): prepublish [skip ci]" --no-verify
+            git push
       - persist_to_workspace:
           root: .
           paths:
@@ -46,7 +57,8 @@ jobs:
           at: ~/app
       - run:
           name: "Prerelease"
-          command: yarn lerna:publish --conventional-graduate --skip-npm --yes
+          command: |
+            yarn lerna version --conventional-graduate --yes
       - persist_to_workspace:
           root: .
           paths:
