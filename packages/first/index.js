@@ -1,3 +1,3 @@
-const first = () => 'Hi from the first module';
+const first = () => 'Hi from updated first module';
 
 module.exports = first;
