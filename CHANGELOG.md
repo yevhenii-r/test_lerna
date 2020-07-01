@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/yevhenii-r/test_lerna/compare/v1.9.0...v1.10.0) (2020-07-01)
+
+
+### Features
+
+* Update first module ([#15](https://github.com/yevhenii-r/test_lerna/issues/15)) ([3aa31b2](https://github.com/yevhenii-r/test_lerna/commit/3aa31b28e7bada0206425e62fa59ff07b0bd0c21))
+
 # [1.9.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-07-01)
 
 
