@@ -5,6 +5,17 @@
 
 * Add Local Module ([d7dbc44](https://github.com/yevhenii-r/test_lerna/commit/d7dbc44dad16bd25be043ba89afec7e4f793cf62))
 * Add Local Module ([#14](https://github.com/yevhenii-r/test_lerna/issues/14)) ([8c2438a](https://github.com/yevhenii-r/test_lerna/commit/8c2438ad8a9d0aed2ab6ce80635208ea96b0755a))
+* Add release-it ([08189e9](https://github.com/yevhenii-r/test_lerna/commit/08189e96a3386bd99e470857d7f602455daa8326))
+* Add release-it ([6b2d4ea](https://github.com/yevhenii-r/test_lerna/commit/6b2d4ea38dccea6876f545d953cac758cc53b1a0))
+* Update new app ([#12](https://github.com/yevhenii-r/test_lerna/issues/12)) ([d8564dd](https://github.com/yevhenii-r/test_lerna/commit/d8564dd3ab1bb2433e18b783dc83116336ea6179))
+
+# [1.9.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-07-01)
+
+
+### Features
+
+* Add Local Module ([d7dbc44](https://github.com/yevhenii-r/test_lerna/commit/d7dbc44dad16bd25be043ba89afec7e4f793cf62))
+* Add Local Module ([#14](https://github.com/yevhenii-r/test_lerna/issues/14)) ([8c2438a](https://github.com/yevhenii-r/test_lerna/commit/8c2438ad8a9d0aed2ab6ce80635208ea96b0755a))
 * Update new app ([#12](https://github.com/yevhenii-r/test_lerna/issues/12)) ([d8564dd](https://github.com/yevhenii-r/test_lerna/commit/d8564dd3ab1bb2433e18b783dc83116336ea6179))
 
 
