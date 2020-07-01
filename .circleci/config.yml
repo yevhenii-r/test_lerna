@@ -40,10 +40,7 @@ jobs:
       - run:
           name: "Prerelease"
           command: |
-            yarn lerna version --yes --conventional-prerelease --preid dev --no-changelog --no-git-tag-version
-            git add .
-            git commit -m "chore(release): prepublish [skip ci]" --no-verify
-            git push
+            yarn release --git.commitMessage='chore(release): prepublish [skip ci]' --no-git.tag --no-npm --yes
       - persist_to_workspace:
           root: .
           paths:

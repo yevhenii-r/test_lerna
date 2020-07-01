@@ -1,19 +1,24 @@
 {
   "name": "monorepo",
-  "version": "1.0.0",
-  "main": "packages/app/index.js",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevhenii-r/test_lerna.git"
+  },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "test": "lerna run test --stream",
     "clean": "rimraf node_modules",
-    "lerna:publish": "lerna publish"
+    "lerna:publish": "lerna publish",
+    "release": "release-it"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^1.1.4",
     "jest": "^26.1.0",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "release-it": "^13.6.4"
   }
 }
