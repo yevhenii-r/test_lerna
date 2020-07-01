@@ -4,5 +4,14 @@
       "preset": "angular",
       "infile": "CHANGELOG.md"
     }
+  },
+  "npm": {
+    "publish": false
+  },
+  "git": {
+    "requireUpstream": false
+  },
+  "github": {
+    "release": true
   }
 }

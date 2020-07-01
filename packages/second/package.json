@@ -6,5 +6,8 @@
   "private": true,
   "scripts": {
     "test": "../../node_modules/.bin/jest --colors"
+  },
+  "devDependencies": {
+    "release-it": "^13.6.4"
   }
 }
