@@ -77,11 +77,14 @@ workflows:
   version: 2
   pr:
     jobs:
-      - build:
+      - hold: 
+          type: approval
           filters:
             branches:
               ignore:
                 - master
+      - build:
+          requires: [hold]
 
   deploy-dev:
     jobs:
