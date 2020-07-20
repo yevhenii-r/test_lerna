@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/yevhenii-r/test_lerna/compare/v1.10.0...v1.11.0) (2020-07-20)
+
+
+### Features
+
+* Reconfigure third module ([#17](https://github.com/yevhenii-r/test_lerna/issues/17)) ([28332c2](https://github.com/yevhenii-r/test_lerna/commit/28332c2c81f12805857c917dfb792e8fa1dd93f7))
+
 # [1.10.0](https://github.com/yevhenii-r/test_lerna/compare/v1.9.0...v1.10.0) (2020-07-01)
 
 
