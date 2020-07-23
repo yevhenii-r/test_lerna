@@ -1,22 +1,30 @@
-## [1.11.1](https://github.com/yevhenii-r/test_lerna/compare/v1.11.0...v1.11.1) (2020-07-23)
+## [1.11.2](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-07-23)
 
-## [1.11.1](https://github.com/yevhenii-r/test_lerna/compare/v1.11.0...v1.11.1) (2020-07-23)
 
-# [1.11.0](https://github.com/yevhenii-r/test_lerna/compare/v1.10.0...v1.11.0) (2020-07-20)
+
+## [1.11.1](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-07-23)
+
+
+
+# [1.11.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-07-20)
 
 
 ### Features
 
 * Reconfigure third module ([#17](https://github.com/yevhenii-r/test_lerna/issues/17)) ([28332c2](https://github.com/yevhenii-r/test_lerna/commit/28332c2c81f12805857c917dfb792e8fa1dd93f7))
 
-# [1.10.0](https://github.com/yevhenii-r/test_lerna/compare/v1.9.0...v1.10.0) (2020-07-01)
+
+
+# [1.10.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-07-01)
 
 
 ### Features
 
 * Update first module ([#15](https://github.com/yevhenii-r/test_lerna/issues/15)) ([3aa31b2](https://github.com/yevhenii-r/test_lerna/commit/3aa31b28e7bada0206425e62fa59ff07b0bd0c21))
 
-# [1.9.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-07-01)
+
+
+# [1.9.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-07-01)
 
 
 ### Features
@@ -27,18 +35,9 @@
 * Add release-it ([6b2d4ea](https://github.com/yevhenii-r/test_lerna/commit/6b2d4ea38dccea6876f545d953cac758cc53b1a0))
 * Update new app ([#12](https://github.com/yevhenii-r/test_lerna/issues/12)) ([d8564dd](https://github.com/yevhenii-r/test_lerna/commit/d8564dd3ab1bb2433e18b783dc83116336ea6179))
 
-# [1.9.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-07-01)
 
 
-### Features
-
-* Add Local Module ([d7dbc44](https://github.com/yevhenii-r/test_lerna/commit/d7dbc44dad16bd25be043ba89afec7e4f793cf62))
-* Add Local Module ([#14](https://github.com/yevhenii-r/test_lerna/issues/14)) ([8c2438a](https://github.com/yevhenii-r/test_lerna/commit/8c2438ad8a9d0aed2ab6ce80635208ea96b0755a))
-* Update new app ([#12](https://github.com/yevhenii-r/test_lerna/issues/12)) ([d8564dd](https://github.com/yevhenii-r/test_lerna/commit/d8564dd3ab1bb2433e18b783dc83116336ea6179))
-
-
-
-# [1.8.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.8.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 ### Features
@@ -47,7 +46,7 @@
 
 
 
-# [1.7.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.7.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 ### Features
@@ -56,7 +55,7 @@
 
 
 
-# [1.6.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.6.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 ### Features
@@ -68,11 +67,11 @@
 
 
 
-## [1.4.1](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+## [1.4.1](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 
-# [1.4.0-dev.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.4.0-dev.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 ### Features
@@ -81,11 +80,11 @@
 
 
 
-# [1.3.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.3.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 
-# [1.3.0-alpha.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.3.0-alpha.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 ### Features
@@ -94,7 +93,7 @@
 
 
 
-# [1.2.0](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-30)
+# [1.2.0](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-30)
 
 
 ### Features
@@ -110,13 +109,13 @@
 
 
 
-## [1.0.2](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-24)
+## [1.0.2](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-24)
 
 
 
-## [1.0.1](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-24)
+## [1.0.1](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-24)
 
 
 
-## [1.0.1-alpha.2](https://github.com/yevhenii-r/test_lerna/compare/v1.8.0...v1.9.0) (2020-06-24)
+## [1.0.1-alpha.2](https://github.com/yevhenii-r/test_lerna/compare/v1.11.1...v1.11.2) (2020-06-24)
 
