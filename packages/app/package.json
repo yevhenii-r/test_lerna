@@ -10,6 +10,6 @@
     "@monorepo/third": "1.8.0"
   },
   "devDependencies": {
-    "release-it": "^13.6.4"
+    "release-it": "^14.2.2"
   }
 }
