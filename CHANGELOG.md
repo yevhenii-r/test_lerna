@@ -1,3 +1,5 @@
+## [1.11.10](https://github.com/yevhenii-r/test_lerna/compare/v1.11.9...v1.11.10) (2020-11-30)
+
 ## [1.11.9](https://github.com/yevhenii-r/test_lerna/compare/v1.11.8...v1.11.9) (2020-11-27)
 
 ## [1.11.8](https://github.com/yevhenii-r/test_lerna/compare/v1.11.7...v1.11.8) (2020-10-22)
