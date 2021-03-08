@@ -18,7 +18,7 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "^2.0.0",
     "jest": "^26.1.0",
-    "lerna": "^3.22.1",
+    "lerna": "^4.0.0",
     "release-it": "^14.2.2"
   },
   "version": "1.11.2"
